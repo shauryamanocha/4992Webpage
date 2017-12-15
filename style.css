@@ -162,3 +162,22 @@ iframe{
 	width:100%;
 	height:40vh;
 }
+.top{
+	margin-top:1vh;
+}
+.scaleLink{
+	font-size:2vw;
+	transition: font-size .2s ease-in-out
+}
+
+.scaleLink:hover{
+	font-size:2.3vw;
+}
+
+.imageScale{
+	width:90%;
+	transition: width .5s ease-in-out
+}
+.imageScale:hover{
+	width:95%
+}
