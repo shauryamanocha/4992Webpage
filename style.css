@@ -121,7 +121,7 @@ a:hover{
 	font-size:5vw;
 }
 .logo{
-	width:75%;
+	max-width:30vh;
 }
 h1{
 	font-size:6vw
@@ -136,7 +136,8 @@ h1{
 	height:10vh;
 	margin-top:0vh;
 	transition: background-color .5s ease-in-out,
-	height .2s ease-in-out;
+	height .2s ease-in-out,
+	width .2s ease-in-out;
 	border: 2px solid rgb(0, 141, 78);
 	background-color:rgba(0, 141, 78,0)
 	
@@ -144,6 +145,7 @@ h1{
 .button:hover{
 	background-color:rgba(0, 141, 78,0.5);
 	height:11vh;
+	width:105%;
 }
 .lower{
 	padding-top:20vh;
@@ -166,18 +168,31 @@ iframe{
 	margin-top:1vh;
 }
 .scaleLink{
-	font-size:2vw;
-	transition: font-size .2s ease-in-out
+	padding-top:0vh;
+	padding-bottom:0vh;
+	transition: padding-top .2s ease-in-out,
+	padding-bottom .2s ease-in-out;
 }
 
 .scaleLink:hover{
-	font-size:2.3vw;
+	padding-top:1vh;
+	padding-bottom:1vh;
 }
 
 .imageScale{
 	width:90%;
-	transition: width .5s ease-in-out
+	transition: width .5s ease-in-out;
 }
 .imageScale:hover{
 	width:95%
+}
+.top{
+	margin-top:20px;
+}
+.pic{
+	max-height:50%;
+	height:40vh;
+}
+.center{
+	text-align: center;
 }
