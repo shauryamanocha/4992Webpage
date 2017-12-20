@@ -196,3 +196,11 @@ iframe{
 .center{
 	text-align: center;
 }
+
+.colorbg{
+	background-image:url("bgimage.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	height:100%;
+	
+}
