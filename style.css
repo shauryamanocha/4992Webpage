@@ -128,7 +128,7 @@ h1{
 	width:100%;
 	opacity:1;
 	height:10vh;
-	margin-top:0vh;
+	margin-top:0px;
 	transition: background-color .5s ease-in-out,
 	height .2s ease-in-out,
 	width .2s ease-in-out;
@@ -204,5 +204,10 @@ iframe{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+
+}
+
+.top{
+	height:3vh;
 
 }
