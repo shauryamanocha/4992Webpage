@@ -46,11 +46,11 @@ a:hover{
 
 }
 .slideRight{
-	transition: padding-left 1s ease;
-	padding-left:0vw;
+	transition: margin-left 1s ease;
+	margin-left:0vw;
 }
 .slideRight:hover{
-	padding-left:3vw;
+	margin-left:3vw;
 }
 .video{
 	position:absolute;
@@ -210,4 +210,7 @@ iframe{
 .top{
 	height:3vh;
 
+}
+button{
+	margin-top:1vh;
 }
