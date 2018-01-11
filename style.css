@@ -123,7 +123,7 @@ a:hover{
 	max-width:30vh;
 }
 h1{
-	font-size:6vw
+	/* font-size:6vw */
 }
 .darkbg{
 	background-color:#2b2b2b;
@@ -206,10 +206,11 @@ iframe{
 }
 .parallax{
 	background-image: url("robotside.png");
-	background-position: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	width:100%;
 
 }
 
@@ -217,7 +218,7 @@ iframe{
 	height:3vh;
 
 }
-button{
+.full{
 	margin-top:1vh;
 	width:100%;
 }
