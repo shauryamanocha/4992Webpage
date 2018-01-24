@@ -132,17 +132,15 @@ a:hover{
 	opacity:1;
 	height:10vh;
 	margin-top:0px;
-	transition: background-color .5s ease-in-out,
-	height .2s ease-in-out,
-	width .2s ease-in-out;
+	transition: background-color .2s ease-in-out,
+	height .2s ease-in-out;
 	border: 2px solid rgb(0, 141, 78);
 	background-color:rgba(0, 141, 78,0)
 	
 }
 .button:hover{
 	background-color:rgba(0, 141, 78,0.5);
-	height:11vh;
-	width:105%;
+	height:12vh;
 }
 
 .lower{
@@ -168,13 +166,16 @@ iframe{
 .scaleLink{
 	padding-top:0vh;
 	padding-bottom:0vh;
-	transition: padding-top .2s ease-in-out,
-	padding-bottom .2s ease-in-out;
+	font-size:1em;
+	transition: padding-left .2s ease-in-out,
+	padding-right .2s ease-in-out,
+	font-size .1s ease-in-out;
 }
 
 .scaleLink:hover{
-	padding-top:1vh;
-	padding-bottom:1vh;
+	padding-left:1vh;
+	padding-right:1vh;
+	font-size:1.1em;
 }
 
 .imageScale{
@@ -203,7 +204,7 @@ iframe{
 	
 }
 .parallax{
-	background-image: url("robotside.png");
+	background-image: url("robotside.jpeg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -225,4 +226,33 @@ ul{
 	list-style:none;
 	padding-left:0px;
 }
+
+#stackpole{
+	max-width: 50vh;
+}
+
+#hdsb{
+	max-width:25vh;
+}
+#clock{
+	font-weight: 500;
+	font-family: 'Yantramanav', sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+}
+#clockText{
+	font-weight: 500;
+	font-family: 'Yantramanav', sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#hangbg{
+	background-image:url("robothang.jpg");
+	background-position-y: -20vh;
+	background-position-x: center;
+	/* background-position: center; */
+	background-size: 60%;
+}
+
 
